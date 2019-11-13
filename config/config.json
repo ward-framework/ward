@@ -1,0 +1,9 @@
+{
+	"mode": "DEV",
+	"path": {
+		"public": "/public/",
+		"views": "/public/views/",
+		"styles": "/public/css/",
+		"scripts": "/public/js/"
+	}
+}
