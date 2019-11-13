@@ -13,3 +13,5 @@ function loadConfig(callback) {
 	};
 	xhr.send(null);
 }
+
+OnLoad(loadConfig);
