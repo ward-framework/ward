@@ -10,6 +10,7 @@ class View {
 		}
 	}
 
+	// Load parsed template view into "viewroot"
 	load() {
 		let params = this.params;
 		let xhr = new XMLHttpRequest();
@@ -17,9 +18,14 @@ class View {
 		xhr.open('GET', this.path, true);
 		xhr.onreadystatechange = function () {
 			if (xhr.readyState == 4 && xhr.status == "200") {
-				// document.querySelector("viewroot").innerHTML = this.responseText;
+
+				// Parse view template
 				let parsedview = templateEngine.parse(this.responseText, params);
+
+				// Load parsed html into viewroot element
 				document.querySelector("viewroot").innerHTML = parsedview;
+
+				// Change page title with view title
 				let title = document.querySelector("viewhead").querySelector("title");
 				document.title = title.text;
 			}
@@ -27,13 +33,18 @@ class View {
 		xhr.send(null);
 	}
 
+	// Load raw html view into "viewroot"
 	loadRaw() {
 		let xhr = new XMLHttpRequest();
 		xhr.overrideMimeType("text/html");
 		xhr.open('GET', this.path, true);
 		xhr.onreadystatechange = function () {
 			if (xhr.readyState == 4 && xhr.status == "200") {
+
+				// Load html into viewroot element
 				document.querySelector("viewroot").innerHTML = this.responseText;
+
+				// Change page title with view title
 				let title = document.querySelector("viewhead").querySelector("title");
 				document.title = title.text;
 			}

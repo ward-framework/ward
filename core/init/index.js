@@ -24,7 +24,7 @@ function init() {
 		window.dispatchEvent(event);
 	});
 
-	// When config is loaded init routes methods
+	// When config is loaded, init routes methods
 	window.addEventListener('ConfigLoaded', function() {
 
 		// Change route on hash change
