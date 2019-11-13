@@ -14,15 +14,15 @@ let router = new Router([], {muted: false});
 // Init function called Onload
 function init() {
 
-	// // Load config on start
-	// loadConfig(function(response) {
+	// Load config on start
+	loadConfig(function(response) {
 
-	// 	config = JSON.parse(response);
+		config = JSON.parse(response);
 
-	// 	// Send "ConfigLoaded" event to window
-	// 	let event = new Event("ConfigLoaded");
-	// 	window.dispatchEvent(event);
-	// });
+		// Send "ConfigLoaded" event to window
+		let event = new Event("ConfigLoaded");
+		window.dispatchEvent(event);
+	});
 
 	// When config is loaded, init routes methods
 	window.addEventListener('ConfigLoaded', function() {
