@@ -2,8 +2,7 @@ class Router {
 	constructor(routes, options) {
 		if (options && Object.entries(options).length >= 0 && options.constructor === Object) {
 			this.options = options;
-		}
-		else {
+		} else {
 			this.options = {
 				muted: true, // If false message at each redirect.
 			};
@@ -11,14 +10,13 @@ class Router {
 
 		if (routes) {
 			this.routes = routes;
-		}
-		else {
+		} else {
 			this.routes = [];
 		}
 
 		this.current;
 
-		this.routes.push(new Route("#PageNotFound", function() {
+		this.routes.push(new Route("/PageNotFound", function () {
 			return new View("404");
 		}));
 	}
@@ -26,11 +24,23 @@ class Router {
 	// Register a route to router
 	register(route) {
 		this.routes.push(route);
+		route.router = this;
 	}
 
 	// Get current location hash
 	location() {
-		return window.location.hash;
+		if (config && config.route.type === "hash") {
+			return window.location.hash;
+		}
+		// if (config && config.route.type === "pathname") {
+		// 	return window.location.pathname;
+		// }
+	}
+
+	setLocation(path) {
+		if (config && config.route.type === "hash") {
+			window.location.hash = path;
+		}
 	}
 
 	// Check route on path
@@ -44,10 +54,14 @@ class Router {
 					// Check route
 					route.check();
 					this.current = route;
-					window.location.hash = path;
+					this.setLocation(path);
 
 					// Send "redirected" Event when redirect is successful
-					var event = new CustomEvent('redirected', { detail: { route: this.current }});
+					var event = new CustomEvent('redirected', {
+						detail: {
+							route: this.current
+						}
+					});
 					document.dispatchEvent(event);
 
 					// Send console message if not muted
@@ -59,8 +73,8 @@ class Router {
 
 			// Send "not found" message if not muted
 			if (!found && !this.options.muted) {
-				console.log("Cannot find route in routes :", this.routes);
-				this.redirect("#PageNotFound");
+				console.log("Cannot find route in routes :", path, this.routes);
+				this.redirect(Route.link("/PageNotFound"));
 			}
 		}
 	}

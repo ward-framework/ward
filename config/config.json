@@ -1,9 +1,13 @@
 {
 	"mode": "DEV",
+	"route": {
+		"type": "hash"
+	},
 	"path": {
-		"public": "./public/",
-		"views": "./public/views/",
-		"styles": "./public/assets/css/",
-		"scripts": "./public/assets/js/"
+		"dir": "/Ward/public/",
+		"public": "../public/",
+		"views": "../public/views/",
+		"styles": "../public/assets/css/",
+		"scripts": "../public/assets/js/"
 	}
 }

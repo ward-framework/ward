@@ -26,5 +26,5 @@ class templateEngine {
 			return content;
 		}
 		return result;
-	}
-}
+	};
+};
