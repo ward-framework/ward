@@ -246,8 +246,8 @@ Project link: [https://github.com/ColinEspinas/ward](https://github.com/ColinEsp
 [stars-url]: https://github.com/colinespinas/ward/stargazers
 [issues-shield]: https://img.shields.io/github/issues/colinespinas/ward.svg?style=flat-square
 [issues-url]: https://github.com/colinespinas/ward/issues
-[license-shield]: https://img.shields.io/github/colinespinas/ward.svg?style=flat-square
-[license-url]: https://github.com/colinespinas/ward/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/colinespinas/ward.svg?style=flat-square
+[license-url]: https://github.com/colinespinas/ward/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/colin-espinas-9739b8178/l
 [product-screenshot]: https://i.imgur.com/o9rDolc.jpg
