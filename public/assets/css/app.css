@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 viewbody {
 	background-color: #08002e;
@@ -21,6 +22,9 @@ viewbody {
 	margin: 0;
 	text-align: center;
 	opacity: 0.5;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0.1em;
+	font-weight: normal;
 }
 
 .description {
