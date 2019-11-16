@@ -21,7 +21,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo">
+  <a href="https://github.com/colinespinas/ward">
     <img src="https://raw.githubusercontent.com/colinespinas/ward/master/public/assets/images/logo.png" alt="Logo" width="120">
   </a>
 
