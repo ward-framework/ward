@@ -150,7 +150,7 @@ You can use it to pass parameters to a view:
 NOTE: You can pass any javascript global variable too.
 
 And you can also use logic structures and functions:
-```
+```html
 <viewbody>
   {# for(let item of items) { #}
     <p>{# item.name #}</p>
