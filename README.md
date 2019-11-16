@@ -141,21 +141,21 @@ View(name, params/*optional*/));
 
 #### Template engine
 
-The Ward templating engine works with ```{{ expression }}``` and allows every javascript expression.
+The Ward templating engine works with `{# expression #}` and allows every javascript expression.
 
 You can use it to pass parameters to a view:
 ```html
-<p>{{ name }}</p>
+<p>{# name #}</p>
 ```
 NOTE: You can pass any javascript global variable too.
 
 And you can also use logic structures and functions:
-```html
+```
 <viewbody>
-  {{ for(let item of items) { }}
-    <p>{{ item.name }}</p>
-    {{ console.log(item) }}
-  <!-- {{ } }} Github pages don't like this line but you need it to close the for statement -->
+  {# for(let item of items) { #}
+    <p>{# item.name #}</p>
+    {# console.log(item) #}
+  {# } #}
 </viewbody>
 ```
 
@@ -194,7 +194,7 @@ Route.link(path);
 ```
 ```html
 <!-- Exemple: -->
-<a href="{{ Route.link("/home") }}">Home</a>
+<a href="{# Route.link("/home") #}">Home</a>
 ```
 
 
