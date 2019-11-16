@@ -39,6 +39,7 @@
     ·
     <a href="https://github.com/colinespinas/ward/issues">Request Feature</a>
     <br />
+    <br />
     <a href="https://github.com/colinespinas/ward/graphs/contributors">
       <img src="https://img.shields.io/github/contributors/colinespinas/ward.svg?style=flat-square" alt="Contributors">
     </a>
