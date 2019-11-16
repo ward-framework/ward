@@ -30,6 +30,15 @@
   <p align="center">
     A fast & simple client side framework for building websites
     <br />
+    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://ColinEspinas.github.io/ward/public/">View Demo</a>
+    ·
+    <a href="https://github.com/colinespinas/ward/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/colinespinas/ward/issues">Request Feature</a>
+    <br />
     <a href="https://github.com/colinespinas/ward/graphs/contributors">
       <img src="https://img.shields.io/github/contributors/colinespinas/ward.svg?style=flat-square" alt="Contributors">
     </a>
@@ -48,15 +57,6 @@
     <a href="https://www.linkedin.com/in/colin-espinas-9739b8178/l">
       <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" alt="Linkedin">
     </a>
-    <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://ColinEspinas.github.io/ward/public/">View Demo</a>
-    ·
-    <a href="https://github.com/colinespinas/ward/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/colinespinas/ward/issues">Request Feature</a>
   </p>
 </p>
 
