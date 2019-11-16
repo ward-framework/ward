@@ -14,20 +14,6 @@
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 ### The documentation is not available for now, the project is still in early stages.
@@ -44,6 +30,25 @@
   <p align="center">
     A fast & simple client side framework for building websites
     <br />
+    <a href="https://github.com/colinespinas/ward/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/colinespinas/ward.svg?style=flat-square" alt="Contributors">
+    </a>
+    <a href="https://github.com/othneildrew/Best-README-Template/network/members">
+      <img src="https://img.shields.io/github/forks/colinespinas/ward.svg?style=flat-square" alt="Forks">
+    </a>
+    <a href="https://github.com/colinespinas/ward/stargazers">
+      <img src="https://img.shields.io/github/stars/colinespinas/ward.svg?style=flat-square" alt="Stargazer">
+    </a>
+    <a href="https://github.com/colinespinas/ward/issues">
+      <img src="https://img.shields.io/github/issues/colinespinas/ward.svg?style=flat-square" alt="Issues">
+    </a>
+    <a href="https://github.com/colinespinas/ward/blob/master/LICENSE.md">
+      <img src="https://img.shields.io/github/license/colinespinas/ward.svg?style=flat-square" alt="License">
+    </a>
+    <a href="https://www.linkedin.com/in/colin-espinas-9739b8178/l">
+      <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" alt="Linkedin">
+    </a>
+    <br />
     <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -54,8 +59,6 @@
     <a href="https://github.com/colinespinas/ward/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
