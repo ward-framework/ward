@@ -30,6 +30,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
+### The documentation is not available for now, the project is still in early stages.
 
 <!-- PROJECT LOGO -->
 <br />
