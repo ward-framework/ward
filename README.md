@@ -155,7 +155,7 @@ And you can also use logic structures and functions:
   {{ for(let item of items) { }}
     <p>{{ item.name }}</p>
     {{ console.log(item) }}
-  {{ } }}
+  <!-- {{ } }} Github pages don't like this line but you need it to close the for statement -->
 </viewbody>
 ```
 
