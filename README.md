@@ -128,9 +128,10 @@ View are defined by a head and a body like normal html pages:
 </viewbody>
 ```
 
-The name of the view will be the path of the view from the view folder without the extension:
+The name a view will be the path of the view from the "Views" folder without the extension:
 ```
 "public/views/myhomepage.ward.html" => "myhomepage"
+"public/views/mypages/myhomepage.ward.html" => "mypages/myhomepage"
 ```
 
 In javascript the View object is constructed with:
