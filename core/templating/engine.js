@@ -2,7 +2,7 @@ class templateEngine {
 
 	// Parse template (content) with parameters
 	static parse(content, params) {
-		let re = /{{(.+?)}}/g,
+		let re = /{#(.+?)#}/g,
 			reExp = /(^\s*(if|for|else|switch|case|break|{|})).*/g,
 			code = 'with(obj) { var r=[];\n',
 			cursor = 0,
