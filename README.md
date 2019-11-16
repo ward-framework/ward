@@ -66,6 +66,8 @@
   * [Installation](#installation)
 * [Usage](#usage)
   * [Templating](#templating)
+    * [Views](#views)
+    * [Template Engine](#template-engine)
   * [Routing](#routing)
 * [Contributing](#contributing)
 * [License](#license)
@@ -111,7 +113,7 @@ The content below is just explaining basic usages, consider cheking the [documen
 
 ### Templating
 
-**Views**
+#### Views
 
 Ward uses view loading to display content on routes. Views uses the ".ward.html" extension.
 
@@ -137,7 +139,7 @@ View(name, params/*optional*/));
 ```
 
 
-**Template engine**
+#### Template engine
 
 The Ward templating engine works with ```{{ expression }}``` and allows every javascript expression.
 
