@@ -162,6 +162,8 @@ And you can also use logic structures and functions:
 
 
 ### Routing
+Ward uses hash navigation by default, that means that your URI will look like "/#this/is/a/route".
+
 The routing is done in "routes/web.js".
 
 To register a new route you should use:
