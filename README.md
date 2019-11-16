@@ -58,8 +58,13 @@
     <a href="https://www.linkedin.com/in/colin-espinas-9739b8178/l">
       <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" alt="Linkedin">
     </a>
+    <br />
+    <br />
+    <br />
   </p>
 </p>
+
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
