@@ -137,7 +137,7 @@ Views are defined by a head and a body like normal html pages:
 </viewbody>
 ```
 
-The name a view will be the path of the view from the "Views" folder without the extension:
+The name of a view will be the path of the view from the "Views" folder without the extension:
 ```
 "public/views/myhomepage.ward.html" => "myhomepage"
 "public/views/mypages/myhomepage.ward.html" => "mypages/myhomepage"
