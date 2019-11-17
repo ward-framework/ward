@@ -126,7 +126,7 @@ The content below is just explaining basic usages, consider cheking the [documen
 
 Ward uses view loading to display content on routes. Views uses the ".ward.html" extension.
 
-View are defined by a head and a body like normal html pages:
+Views are defined by a head and a body like normal html pages:
 ```html
 <viewhead>
   <title>View title</title>
