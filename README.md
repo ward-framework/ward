@@ -174,7 +174,7 @@ And you can also use logic structures and functions:
 ### Routing
 Ward uses hash navigation by default, that means that your URI will look like "/#this/is/a/route".
 
-The routing is done in "routes/web.js".
+The routing is done in "routes/routes.js".
 
 To register a new route you should use:
 ```javascript
@@ -217,9 +217,9 @@ Route.link(path);
 This project is developed by a somewhat beginner javascript developer, help is always welcome. Do not hesitate to contribute to the project.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/FeatureOrFix`)
+2. Create your Feature or a Fix Branch (`git checkout -b feature/Feature` or `git checkout -b fix/Fix`)
 3. Commit your Changes (`git commit -m 'Add some feature or fix'`)
-4. Push to the Branch (`git push origin feature/FeatureOrFix`)
+4. Push to the Branch (`git push origin feature/Feature` or `git push origin fix/Fix`)
 5. Open a Pull Request
 
 

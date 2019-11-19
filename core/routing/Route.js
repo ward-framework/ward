@@ -1,6 +1,7 @@
 class Route {
 	constructor(path, callback) {
 		this.path = path;
+		this.params = {};
 		if (config && config.route.type === "hash") {
 			
 			if (this.path === "/") {
@@ -10,9 +11,14 @@ class Route {
 				this.path = this.path.replace("/", "#");
 			}
 		}
-		// if (config && config.route.type === "pathname") {
-		// 	this.path = config.path.dir + this.path.replace("/", "");
-		// }
+		let match = null;
+		let paramsRegex = /\/:(\w+)/g
+		while (match = paramsRegex.exec(this.path)) {
+			this.params[match[1]] = undefined;
+		}
+		
+		console.log("Params =", this.params);
+
 		this.callback = callback;
 		this.router;
 	}

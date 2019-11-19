@@ -32,9 +32,6 @@ class Router {
 		if (config && config.route.type === "hash") {
 			return window.location.hash;
 		}
-		// if (config && config.route.type === "pathname") {
-		// 	return window.location.pathname;
-		// }
 	}
 
 	setLocation(path) {
