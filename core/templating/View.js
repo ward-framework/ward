@@ -1,4 +1,4 @@
-import { config } from "/app/config/config.js";
+import { config } from "../../app/config/config.js";
 import templateEngine from "./Engine.js";
 
 class View {

@@ -1,5 +1,5 @@
-import { config } from "/app/config/config.js";
-import Router from "/core/routing/Router.js";
+import { config } from "../app/config/config.js";
+import Router from "./routing/Router.js";
 import { OnConfigLoaded } from "./utility/load.js";
 
 const app = Symbol();

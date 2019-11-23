@@ -1,6 +1,6 @@
-import { config } from "/app/config/config.js";
-import App from "/core/App.js";
-import View from "/core/templating/View.js";
+import { config } from "../../app/config/config.js";
+import App from "../App.js";
+import View from "../templating/View.js";
 
 class Route {
 	constructor(path, callback) {

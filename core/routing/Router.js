@@ -1,6 +1,6 @@
-import { config } from "/app/config/config.js";
+import { config } from "../../app/config/config.js";
 import Route from "./Route.js";
-import View from "/core/templating/View.js";
+import View from "../templating/View.js";
 
 class Router {
 	constructor(routes, options) {
