@@ -4,7 +4,7 @@
 		"type": "hash"
 	},
 	"path": {
-		"dir": "/Ward/public/",
+		"dir": "/ward/public/",
 		"app": "../app/",
 		"public": "../public/",
 		"views": "../app/views/",
