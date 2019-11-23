@@ -1,6 +1,6 @@
-import { config, loadConfig } from "/app/config/config.js";
-import App from "/core/App.js";
-import { OnAppLoaded, OnReady } from "/core/utility/load.js";
+import { config, loadConfig } from "../../app/config/config.js";
+import App from "../App.js";
+import { OnAppLoaded, OnReady } from "../utility/load.js";
 
 const app = App.get;
 
@@ -12,7 +12,7 @@ function init() {
 	// When config is loaded, init routes methods
 	OnAppLoaded(function() {
 
-		import("/app/routes/routes.js").then(() => {
+		import("../../app/routes/routes.js").then(() => {
 			// Change route on hash change
 			if (config.route.type === "hash") {
 				window.addEventListener('hashchange', function() {

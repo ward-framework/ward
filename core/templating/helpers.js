@@ -1,4 +1,4 @@
-import Route from "/core/routing/Route.js";
+import Route from "../routing/Route.js";
 
 function helpers(params) {
 
