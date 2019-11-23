@@ -24,7 +24,6 @@ class templateEngine {
 		code = (code + 'return r.join(""); }').replace(/[\r\t\n]/g, ' ');
 		try {
 			result = new Function('obj', code).apply(scope, [params]);
-			console.log(result.toString());
 		}
 		catch (err) {
 			console.error(err.message, "falling back to raw content.");
