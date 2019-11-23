@@ -88,7 +88,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://i.imgur.com/o9rDolc.jpg)
+[![Product Name Screen Shot][product-screenshot]](https://ColinEspinas.github.io/ward/public/)
 
 Ward is a simple client sided framework that helps you create fast websites. It is really easy to use and comes with routing and templating.
 
