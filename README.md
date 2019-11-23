@@ -139,8 +139,8 @@ Views are defined by a head and a body like normal html pages:
 
 The name of a view will be the path of the view from the "Views" folder without the extension:
 ```
-"public/views/myhomepage.ward.html" => "myhomepage"
-"public/views/mypages/myhomepage.ward.html" => "mypages/myhomepage"
+"app/views/myhomepage.ward.html" => "myhomepage"
+"app/views/mypages/myhomepage.ward.html" => "mypages/myhomepage"
 ```
 
 In javascript the View object is constructed with:
@@ -174,7 +174,7 @@ And you can also use logic structures and functions:
 ### Routing
 Ward uses hash navigation by default, that means that your URI will look like "/#this/is/a/route".
 
-The routing is done in "routes/routes.js".
+The routing is done in `app/routes/routes.js`.
 
 To register a new route you should use:
 ```javascript
@@ -202,11 +202,12 @@ router.redirect("/home");
 
 To get the right path to a view use:
 ```javascript
-Route.link(path);
+Route.link(path); // In javascript
+link(path) // Helper for templates
 ```
 ```html
 <!-- Exemple: -->
-<a href="{# Route.link("/home") #}">Home</a>
+<a href="{# link("/home") #}">Home</a>
 ```
 
 

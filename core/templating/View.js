@@ -1,3 +1,6 @@
+import { config } from "/app/config/config.js";
+import templateEngine from "./Engine.js";
+
 class View {
 	constructor(name, params) {
 		this.name = name;
@@ -52,3 +55,5 @@ class View {
 		xhr.send(null);
 	}
 }
+
+export default View;

@@ -1,3 +1,7 @@
+import { config } from "/app/config/config.js";
+import App from "/core/App.js";
+import View from "/core/templating/View.js";
+
 class Route {
 	constructor(path, callback) {
 		this.path = path;
@@ -11,14 +15,6 @@ class Route {
 				this.path = this.path.replace("/", "#");
 			}
 		}
-		let match = null;
-		let paramsRegex = /\/:(\w+)/g
-		while (match = paramsRegex.exec(this.path)) {
-			this.params[match[1]] = undefined;
-		}
-		
-		console.log("Params =", this.params);
-
 		this.callback = callback;
 		this.router;
 	}
@@ -43,10 +39,13 @@ class Route {
 			}
 		}
 
-		for (const route of router.routes) {
+		for (const route of App.get.router.routes) {
 			if (route.path === path) {
 				return path;
 			}
 		}
+		return this.link("/notfound");
 	}
 }
+
+export default Route;

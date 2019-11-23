@@ -1,3 +1,7 @@
+import { config } from "/app/config/config.js";
+import Route from "./Route.js";
+import View from "/core/templating/View.js";
+
 class Router {
 	constructor(routes, options) {
 		if (options && Object.entries(options).length >= 0 && options.constructor === Object) {
@@ -16,7 +20,7 @@ class Router {
 
 		this.current;
 
-		this.routes.push(new Route("/PageNotFound", function () {
+		this.routes.push(new Route("/notfound", function () {
 			return new View("404");
 		}));
 	}
@@ -71,8 +75,10 @@ class Router {
 			// Send "not found" message if not muted
 			if (!found && !this.options.muted) {
 				console.log("Cannot find route in routes :", path, this.routes);
-				this.redirect(Route.link("/PageNotFound"));
+				this.redirect(Route.link("/notfound"));
 			}
 		}
 	}
 }
+
+export default Router;

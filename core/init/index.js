@@ -1,29 +1,28 @@
+import { config, loadConfig } from "/app/config/config.js";
+import App from "/core/App.js";
+import { OnAppLoaded, OnReady } from "/core/utility/load.js";
+
+const app = App.get;
 
 // Init function called Onload
 function init() {
 
 	// Load config on start
-	loadConfig(function(response) {
-
-		config = JSON.parse(response);
-
-		// Send "ConfigLoaded" event to window
-		let event = new Event("ConfigLoaded");
-		window.dispatchEvent(event);
-	});
-
+	loadConfig();
 	// When config is loaded, init routes methods
-	OnConfigLoaded(function() {
+	OnAppLoaded(function() {
 
-		// Change route on hash change
-		if (config.route.type === "hash") {
-			window.addEventListener('hashchange', function() {
-				router.redirect(router.location());
-			});	
-		}
+		import("/app/routes/routes.js").then(() => {
+			// Change route on hash change
+			if (config.route.type === "hash") {
+				window.addEventListener('hashchange', function() {
+					app.router.redirect(app.router.location());
+				});	
+			}
 
-		// Load page if hash not changed (Direct link)
-		router.redirect(router.location());
+			// Load page if hash not changed (Direct link)
+			app.router.redirect(app.router.location());
+		});
 	});
 }
 

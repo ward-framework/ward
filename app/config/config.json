@@ -5,8 +5,9 @@
 	},
 	"path": {
 		"dir": "/Ward/public/",
+		"app": "../app/",
 		"public": "../public/",
-		"views": "../public/views/",
+		"views": "../app/views/",
 		"styles": "../public/assets/css/",
 		"scripts": "../public/assets/js/"
 	}
