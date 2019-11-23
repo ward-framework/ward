@@ -218,7 +218,7 @@ link(path) // Helper for templates
 This project is developed by a somewhat beginner javascript developer, help is always welcome. Do not hesitate to contribute to the project.
 
 1. Fork the Project
-2. Create your Feature or a Fix Branch (`git checkout -b feature/Feature` or `git checkout -b fix/Fix`)
+2. Create your Feature or Fix Branch (`git checkout -b feature/Feature` or `git checkout -b fix/Fix`)
 3. Commit your Changes (`git commit -m 'Add some feature or fix'`)
 4. Push to the Branch (`git push origin feature/Feature` or `git push origin fix/Fix`)
 5. Open a Pull Request
