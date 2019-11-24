@@ -105,13 +105,13 @@ Ward is a standalone framework, you don't need anything to make it work.
 
 ### Installation
 
-This repository act as a base for Ward projects so you just need to clone it:
+1. This repository act as a base for Ward projects so you just need to clone it:
 ```sh
 git clone https://github.com/ColinEspinas/ward.git
 ```
-Then make the `public/index.html` file the root of your website.
+2. Make the `public/index.html` file the root of your website.
 
-Now go to the "/" route in your browser, you must see the Ward welcome page.
+3. Go to the "/" route in your browser, you must see the Ward welcome page.
 
 
 
