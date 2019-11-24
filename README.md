@@ -109,7 +109,7 @@ This repository act as a base for Ward projects so you just need to clone it:
 ```sh
 git clone https://github.com/ColinEspinas/ward.git
 ```
-Then make the "public/index.html" file the root of your website.
+Then make the `public/index.html` file the root of your website.
 
 Now go to the "/" route in your browser, you must see the Ward welcome page.
 
@@ -124,7 +124,7 @@ The content below is just explaining basic usages, consider cheking the [documen
 
 #### Views
 
-Ward uses view loading to display content on routes. Views uses the ".ward.html" extension.
+Ward uses view loading to display content on routes. Views uses the `.ward.html` extension.
 
 Views are defined by a head and a body like normal html pages:
 ```html
@@ -137,7 +137,7 @@ Views are defined by a head and a body like normal html pages:
 </viewbody>
 ```
 
-The name of a view will be the path of the view from the "Views" folder without the extension:
+The name of a view will be the path of the view from the `Views` folder without the extension:
 ```
 "app/views/myhomepage.ward.html" => "myhomepage"
 "app/views/mypages/myhomepage.ward.html" => "mypages/myhomepage"
@@ -172,7 +172,7 @@ And you can also use logic structures and functions:
 
 
 ### Routing
-Ward uses hash navigation by default, that means that your URI will look like "/#this/is/a/route".
+Ward uses hash navigation by default, that means that your URI will look like `/#this/is/a/route`.
 
 The routing is done in `app/routes/routes.js`.
 
