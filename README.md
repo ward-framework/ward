@@ -111,7 +111,7 @@ git clone https://github.com/ColinEspinas/ward.git
 ```
 Then make the "public/index.html" file the root of your website.
 
-Now go to the "/" route you must see the Ward welcome page.
+Now go to the "/" route in your browser, you must see the Ward welcome page.
 
 
 
