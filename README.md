@@ -257,7 +257,7 @@ Project link: [https://github.com/ColinEspinas/ward](https://github.com/ColinEsp
 [contributors-shield]: https://img.shields.io/github/contributors/colinespinas/ward.svg?style=flat-square
 [contributors-url]: https://github.com/colinespinas/ward/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/colinespinas/ward.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/colinespinas/ward/network/members
 [stars-shield]: https://img.shields.io/github/stars/colinespinas/ward.svg?style=flat-square
 [stars-url]: https://github.com/colinespinas/ward/stargazers
 [issues-shield]: https://img.shields.io/github/issues/colinespinas/ward.svg?style=flat-square
