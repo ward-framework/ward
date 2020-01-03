@@ -43,7 +43,7 @@
     <a href="https://github.com/colinespinas/ward/graphs/contributors">
       <img src="https://img.shields.io/github/contributors/colinespinas/ward.svg?style=flat-square" alt="Contributors">
     </a>
-    <a href="https://github.com/othneildrew/Best-README-Template/network/members">
+    <a href="https://github.com/colinespinas/ward/network/members">
       <img src="https://img.shields.io/github/forks/colinespinas/ward.svg?style=flat-square" alt="Forks">
     </a>
     <a href="https://github.com/colinespinas/ward/stargazers">
