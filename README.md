@@ -109,11 +109,14 @@ Ward is a standalone framework, you don't need anything to make it work.
 ```sh
 git clone https://github.com/ColinEspinas/ward.git
 ```
-2. Make the `public/index.html` file the root of your website.
-
-3. Go to the "/" route in your browser, you must see the Ward welcome page.
-
-
+2. Install dependencies ([ward-server](https://github.com/ColinEspinas/ward-server)):
+```sh
+npm install
+```
+3. Now if you want to serve your Ward project use:
+```sh
+npm start
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
