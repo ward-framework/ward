@@ -1,20 +1,3 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
--->
-
-
-
-
-
-
 
 ### The documentation is not available for now, the project is still in early stages.
 
@@ -69,7 +52,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
+* [About](#about)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -86,7 +69,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About
 
 [![Product Name Screen Shot][product-screenshot]](https://ColinEspinas.github.io/ward/public/)
 
@@ -101,13 +84,13 @@ Get your Ward project up and ready.
 
 ### Prerequisites
 
-Ward is a standalone framework, you don't need anything to make it work but you will need Node.js and a package manager to serve it easely with [ward-server](https://github.com/ColinEspinas/ward-server)).
+Ward is a standalone framework, you don't need anything to make it work but you will need Node.js and a package manager to serve it easely with [ward-server](https://github.com/ColinEspinas/ward-server).
 
 ### Installation
 
 #### CLI
 
-It is recommended to use the [ward-cli]() to create and serve your Ward projects
+It is recommended to use the [ward-cli](https://github.com/ColinEspinas/ward-cli) to create and serve your Ward projects
 1. Install ward-cli:
 ```sh
 npm install [-g] ward-cli
@@ -138,7 +121,7 @@ npm install
 npm start
 ```
 
-NOTE: Nothing stops you from serving Ward projects with Apache servers by tweeking your `.htaccess` file. If you do so do not hesitate to share your methods to help the development of the project. 
+NOTE: Nothing stops you from serving Ward projects with Apache servers by tweeking your `.htaccess` file. If you do so, do not hesitate to share your methods to help the development of the project. 
 
 <!-- USAGE EXAMPLES -->
 ## Usage

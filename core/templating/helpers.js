@@ -1,4 +1,5 @@
 import Route from "../routing/Route.js";
+import App from "../App.js";
 
 function helpers(params) {
 
@@ -11,7 +12,10 @@ function helpers(params) {
 		return Route.link(url);
 	}
 
-
+	// Get current location into a string
+	scope.location = function() {
+		return App.get.router.location();
+	}
 
 	return scope;
 }

@@ -1,4 +1,4 @@
-import { config } from "../app/config/config.js";
+import { config } from "./init/config.js";
 import Router from "./routing/Router.js";
 import { OnConfigLoaded } from "./utility/load.js";
 

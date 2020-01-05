@@ -1,7 +1,7 @@
-import { loadJSON } from "../../core/utility/load.js";
+import { loadJSON } from "../utility/load.js";
 
 // Config location path (from index.html)
-const configPath = '../app/config/config.json';
+const configPath = '../../app/config/config.json';
 
 // Global config variable
 let config;

@@ -1,4 +1,4 @@
-import { config } from "../../app/config/config.js";
+import { config } from "../init/config.js";
 import App from "../App.js";
 import View from "../templating/View.js";
 

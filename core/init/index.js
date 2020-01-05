@@ -1,4 +1,4 @@
-import { config, loadConfig } from "../../app/config/config.js";
+import { config, loadConfig } from "./config.js";
 import App from "../App.js";
 import { OnAppLoaded, OnReady } from "../utility/load.js";
 
