@@ -101,11 +101,31 @@ Get your Ward project up and ready.
 
 ### Prerequisites
 
-Ward is a standalone framework, you don't need anything to make it work.
+Ward is a standalone framework, you don't need anything to make it work but you will need Node.js and a package manager to serve it easely with [ward-server](https://github.com/ColinEspinas/ward-server)).
 
 ### Installation
 
-1. This repository act as a base for Ward projects so you just need to clone it:
+#### CLI
+
+It is recommended to use the [ward-cli]() to create and serve your Ward projects
+1. Install ward-cli:
+```sh
+npm install [-g] ward-cli
+```
+
+2. Create a new Ward project and serve it:
+```sh
+# Create a new project
+ward new MyProject
+# Move into the project directory
+cd MyProject
+# Serve the project
+ward serve
+```
+
+#### Git Clone
+
+1. This repository can act as a skeleton for Ward projects so you just need to clone it:
 ```sh
 git clone https://github.com/ColinEspinas/ward.git
 ```
@@ -117,6 +137,8 @@ npm install
 ```sh
 npm start
 ```
+
+NOTE: Nothing stops you from serving Ward projects with Apache servers by tweeking your `.htaccess` file. If you do so do not hesitate to share your methods to help the development of the project. 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
