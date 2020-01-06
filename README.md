@@ -16,7 +16,7 @@
     <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ColinEspinas.github.io/ward/public/">View Demo</a>
+    <a href="https://ward-demo.herokuapp.com">View Demo</a>
     ·
     <a href="https://github.com/colinespinas/ward/issues">Report Bug</a>
     ·
