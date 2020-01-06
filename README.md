@@ -1,5 +1,5 @@
 
-### The documentation is not available for now, the project is still in early stages.
+### The full documentation is not available for now, the project is still in early stages.
 
 <!-- PROJECT LOGO -->
 <br />
@@ -91,9 +91,9 @@ Ward is a standalone framework, you don't need anything to make it work but you 
 #### CLI
 
 It is recommended to use the [ward-cli](https://github.com/ColinEspinas/ward-cli) to create and serve your Ward projects
-1. Install ward-cli:
+1. Install ward-cli globally:
 ```sh
-npm install [-g] ward-cli
+npm install ward-cli -g
 ```
 
 2. Create a new Ward project and serve it:
