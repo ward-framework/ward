@@ -24,9 +24,9 @@ class Component {
 		xhr.open('GET', this.path, true);
 		xhr.onreadystatechange = function () {
 			if (xhr.readyState == 4 && xhr.status == "200") {
-				
+
 				// Parse view template and adds it to the document
-				document.querySelector(component.tag).innerHTML = templateEngine.parse(this.responseText, params);;
+				document.querySelector(component.tag).innerHTML = templateEngine.parse(this.responseText, params);
 			}
 			if (this.status != 200) {
 				throw Error("Cannot load component from " + path)
