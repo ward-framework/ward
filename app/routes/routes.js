@@ -5,4 +5,4 @@ import View from "../../core/templating/View.js";
 const router = App.get.router;
 
 // Register routes here
-router.register(new Route("/", function() { return new View("home", {test: "hello"}); }));
+router.register(new Route("/", function() { return new View("home"); }));
