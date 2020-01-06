@@ -60,6 +60,7 @@
   * [Templating](#templating)
     * [Views](#views)
     * [Template Engine](#template-engine)
+    * [Components](#components)
   * [Routing](#routing)
 * [Contributing](#contributing)
 * [License](#license)
@@ -145,7 +146,7 @@ Views are defined by a head and a body like normal html pages:
 </viewbody>
 ```
 
-The name of a view will be the path of the view from the `Views` folder without the extension:
+The name of a view will be the path of the view from the `app/views` folder without the extension:
 ```
 "app/views/myhomepage.ward.html" => "myhomepage"
 "app/views/mypages/myhomepage.ward.html" => "mypages/myhomepage"
@@ -177,6 +178,27 @@ And you can also use logic structures and functions:
 </viewbody>
 ```
 
+
+#### Components
+
+Components are just like views, they use the extension `ward.html` but are self contained and can be included in views or in other components.
+
+Like views, the name of a component will be the path of the component from the `app/views` folder without the extension:
+```
+"app/views/components/button.ward.html" => "compontents/button"
+```
+
+In javascript the Component object is constructed with:
+```javascript
+Component(tag, name/*optional*/, params/*optional*/));
+```
+
+To add a component to a view you need to use the `component` helper function:
+```html
+{# component("tag", "name", { options : true }) #}
+```
+
+That helper function shares the same arguments as the Component object constructor.
 
 
 ### Routing
