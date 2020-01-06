@@ -5,7 +5,6 @@ const Server = require('ward-server');
 const server = new Server({
 	path : __dirname,
 	port: process.env.PORT || 8000,
-	ip: "0.0.0.0"
 });
 
 // Serve files
