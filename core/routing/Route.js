@@ -43,12 +43,12 @@ class Route {
 				return route.path;
 			}
 			if (route.path === path) {
-				return path;
+				return route.path;
 			}
 			else {
 				for(const alias of route.aliases) {
 					if (alias === path) {
-						return path;
+						return alias;
 					}
 				}
 			}
