@@ -240,11 +240,22 @@ link(path) // Helper for templates
 <a href="{# link("/home") #}">Home</a>
 ```
 
-You can create an alias to a route by using:
+To add a name to a route use:
+```javascript
+route.name("home");
+```
+
+To create an alias to a route use:
 ```javascript
 route.alias("/path");
 ```
 
+You can chain the `name` and `alias` method like this:
+```javascript
+router.register(new Route("/home", function() { 
+  return new View("home");
+}).name("home").alias("/myhomepage"));
+```
 
 
 <!-- CONTRIBUTING -->

@@ -18,6 +18,7 @@ class Route {
 		}
 		this.callback = callback;
 		this.router;
+		this.name;
 	}
 
 	// Check route callback and handle it
@@ -38,6 +39,9 @@ class Route {
 		}
 
 		for (const route of App.get.router.routes) {
+			if (route.name === path) {
+				return route.path;
+			}
 			if (route.path === path) {
 				return path;
 			}
@@ -63,6 +67,12 @@ class Route {
 			}
 		}
 		this.aliases.push(path);
+		return this; // Return the route for chaining
+	}
+
+	name(name) {
+		this.name = name;
+		return this; // Return the route for chaining
 	}
 }
 
