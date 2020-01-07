@@ -15,6 +15,7 @@ class Component {
 		this.content = "";
 	}
 
+	// Load parsed template into view
 	load() {
 		let params = this.params;
 		let path = this.path;
@@ -26,7 +27,7 @@ class Component {
 			if (xhr.readyState == 4 && xhr.status == "200") {
 				
 				// Parse view template and adds it to the document
-				document.querySelector(component.tag).innerHTML = templateEngine.parse(this.responseText, params);;
+				document.querySelector(component.tag).innerHTML = templateEngine.parse(this.responseText, params);
 			}
 			if (this.status != 200) {
 				throw Error("Cannot load component from " + path)
@@ -36,7 +37,7 @@ class Component {
 		return document.createElement(this.tag).outerHTML;
 	}
 
-	// Load raw html view into "viewroot"
+	// Load raw html into view
 	loadRaw() {
 		let xhr = new XMLHttpRequest();
 		xhr.overrideMimeType("text/html");

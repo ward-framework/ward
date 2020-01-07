@@ -1,4 +1,3 @@
-// Include the package
 const Server = require('ward-server');
 
 // Create a Server instance
