@@ -16,7 +16,7 @@
     <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ColinEspinas.github.io/ward/public/">View Demo</a>
+    <a href="https://ward-demo.herokuapp.com">View Demo</a>
     ·
     <a href="https://github.com/colinespinas/ward/issues">Report Bug</a>
     ·
@@ -202,7 +202,7 @@ That helper function shares the same arguments as the Component object construct
 
 
 ### Routing
-Ward uses hash navigation by default, that means that your URI will look like `/#this/is/a/route`.
+Ward uses hash navigation by default, that means that your URI will look like `/#/this/is/a/route`.
 
 The routing is done in `app/routes/routes.js`.
 
@@ -240,6 +240,22 @@ link(path) // Helper for templates
 <a href="{# link("/home") #}">Home</a>
 ```
 
+To add a name to a route use:
+```javascript
+route.name("home");
+```
+
+To create an alias to a route use:
+```javascript
+route.alias("/path");
+```
+
+You can chain the `name` and `alias` method like this:
+```javascript
+router.register(new Route("/home", function() { 
+  return new View("home");
+}).name("home").alias("/myhomepage"));
+```
 
 
 <!-- CONTRIBUTING -->

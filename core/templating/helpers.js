@@ -8,6 +8,7 @@ function helpers(params) {
 	
 	// Helpers are registered here:
 
+	
 	// Get correct route path from url
 	scope.link = function(url) {
 		return Route.link(url);
@@ -37,6 +38,11 @@ function helpers(params) {
 
 		return component.load();
 	}
+
+
+
+
+
 
 	return scope;
 }

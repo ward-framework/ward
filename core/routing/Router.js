@@ -70,6 +70,31 @@ class Router {
 						console.log("Redirected from router :", this);
 					}
 				}
+				else {
+					for (let alias of route.aliases) {
+						if (alias === path) {
+							found = true;
+
+							// Check route
+							route.check();
+							this.current = route;
+							this.setLocation(this.current.path);
+
+							// Send "redirected" Event when redirect is successful
+							var event = new CustomEvent('redirected', {
+								detail: {
+									route: this.current
+								}
+							});
+							document.dispatchEvent(event);
+
+							// Send console message if not muted
+							if (!this.options.muted) {
+								console.log("Redirected from router :", this);
+							}
+						}
+					}
+				}
 			}
 
 			// Send "not found" message if not muted

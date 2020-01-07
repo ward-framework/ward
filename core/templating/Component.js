@@ -15,6 +15,7 @@ class Component {
 		this.content = "";
 	}
 
+	// Load parsed template into view
 	load() {
 		let params = this.params;
 		let path = this.path;
@@ -36,7 +37,7 @@ class Component {
 		return document.createElement(this.tag).outerHTML;
 	}
 
-	// Load raw html view into "viewroot"
+	// Load raw html into view
 	loadRaw() {
 		let xhr = new XMLHttpRequest();
 		xhr.overrideMimeType("text/html");
