@@ -202,7 +202,7 @@ That helper function shares the same arguments as the Component object construct
 
 
 ### Routing
-Ward uses hash navigation by default, that means that your URI will look like `/#this/is/a/route`.
+Ward uses hash navigation by default, that means that your URI will look like `/#/this/is/a/route`.
 
 The routing is done in `app/routes/routes.js`.
 
@@ -238,6 +238,11 @@ link(path) // Helper for templates
 ```html
 <!-- Exemple: -->
 <a href="{# link("/home") #}">Home</a>
+```
+
+You can create an alias to a route by using:
+```javascript
+route.alias("/path");
 ```
 
 
