@@ -4,8 +4,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/colinespinas/ward">
-    <img src="https://raw.githubusercontent.com/colinespinas/ward/master/public/assets/images/logo.png" alt="Logo" width="120">
+  <a href="https://github.com/ward-framework/ward">
+    <img src="https://raw.githubusercontent.com/ward-framework/ward/master/public/assets/images/logo.png" alt="Logo" width="120">
   </a>
 
   <h3 align="center">WARD</h3>
@@ -13,32 +13,32 @@
   <p align="center">
     A fast & simple client side framework for building websites
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://ward-demo.herokuapp.com">View Demo</a>
     ·
-    <a href="https://github.com/colinespinas/ward/issues">Report Bug</a>
+    <a href="https://github.com/ward-framework/ward/issues">Report Bug</a>
     ·
-    <a href="https://github.com/colinespinas/ward/issues">Request Feature</a>
+    <a href="https://github.com/ward-framework/ward/issues">Request Feature</a>
     <br />
     <br />
-    <a href="https://github.com/colinespinas/ward/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/colinespinas/ward.svg?style=flat-square" alt="Contributors">
+    <a href="https://github.com/ward-framework/ward/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/ward-framework/ward.svg?style=flat-square" alt="Contributors">
     </a>
-    <a href="https://github.com/colinespinas/ward/network/members">
-      <img src="https://img.shields.io/github/forks/colinespinas/ward.svg?style=flat-square" alt="Forks">
+    <a href="https://github.com/ward-framework/ward/network/members">
+      <img src="https://img.shields.io/github/forks/ward-framework/ward.svg?style=flat-square" alt="Forks">
     </a>
-    <a href="https://github.com/colinespinas/ward/stargazers">
-      <img src="https://img.shields.io/github/stars/colinespinas/ward.svg?style=flat-square" alt="Stargazer">
+    <a href="https://github.com/ward-framework/ward/stargazers">
+      <img src="https://img.shields.io/github/stars/ward-framework/ward.svg?style=flat-square" alt="Stargazer">
     </a>
-    <a href="https://github.com/colinespinas/ward/issues">
-      <img src="https://img.shields.io/github/issues/colinespinas/ward.svg?style=flat-square" alt="Issues">
+    <a href="https://github.com/ward-framework/ward/issues">
+      <img src="https://img.shields.io/github/issues/ward-framework/ward.svg?style=flat-square" alt="Issues">
     </a>
-    <a href="https://github.com/colinespinas/ward/blob/master/LICENSE.md">
-      <img src="https://img.shields.io/github/license/colinespinas/ward.svg?style=flat-square" alt="License">
+    <a href="https://github.com/ward-framework/ward/blob/master/LICENSE.md">
+      <img src="https://img.shields.io/github/license/ward-framework/ward.svg?style=flat-square" alt="License">
     </a>
-    <a href="https://www.linkedin.com/in/colin-espinas-9739b8178/l">
+    <a href="https://www.linkedin.com/in/colin-espinas">
       <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" alt="Linkedin">
     </a>
     <br />
@@ -72,7 +72,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-[![Product Name Screen Shot][product-screenshot]](https://ColinEspinas.github.io/ward/public/)
+[![Product Name Screen Shot][product-screenshot]](https://ward-demo.herokuapp.com/)
 
 Ward is a simple client sided framework that helps you create fast websites. It is really easy to use and comes with routing and templating.
 
@@ -85,13 +85,13 @@ Get your Ward project up and ready.
 
 ### Prerequisites
 
-Ward is a standalone framework, you don't need anything to make it work but you will need Node.js and a package manager to serve it easely with [ward-server](https://github.com/ColinEspinas/ward-server).
+Ward is a standalone framework, you don't need anything to make it work but you will need Node.js and a package manager to serve it easely with [ward-server](https://github.com/ward-framework/ward-server).
 
 ### Installation
 
 #### CLI
 
-It is recommended to use the [ward-cli](https://github.com/ColinEspinas/ward-cli) to create and serve your Ward projects
+It is recommended to use the [ward-cli](https://github.com/ward-framework/ward-cli) to create and serve your Ward projects
 1. Install ward-cli globally:
 ```sh
 npm install ward-cli -g
@@ -113,7 +113,7 @@ ward serve
 ```sh
 git clone https://github.com/ColinEspinas/ward.git
 ```
-2. Install dependencies ([ward-server](https://github.com/ColinEspinas/ward-server)):
+2. Install dependencies ([ward-server](https://github.com/ward-framework/ward-server)):
 ```sh
 npm install
 ```
@@ -283,7 +283,7 @@ Ward is distributed under the MIT License. See `LICENSE` for more information.
 
 Colin Espinas - [Website](https://colinespinas.com) - contact@colinespinas.com
 
-Project link: [https://github.com/ColinEspinas/ward](https://github.com/ColinEspinas/ward)
+Project link: [https://github.com/ColinEspinas/ward](https://github.com/ward-framework/ward)
 
 
 
@@ -294,22 +294,3 @@ Project link: [https://github.com/ColinEspinas/ward](https://github.com/ColinEsp
 * []()
 * []()
  -->
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/colinespinas/ward.svg?style=flat-square
-[contributors-url]: https://github.com/colinespinas/ward/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/colinespinas/ward.svg?style=flat-square
-[forks-url]: https://github.com/colinespinas/ward/network/members
-[stars-shield]: https://img.shields.io/github/stars/colinespinas/ward.svg?style=flat-square
-[stars-url]: https://github.com/colinespinas/ward/stargazers
-[issues-shield]: https://img.shields.io/github/issues/colinespinas/ward.svg?style=flat-square
-[issues-url]: https://github.com/colinespinas/ward/issues
-[license-shield]: https://img.shields.io/github/license/colinespinas/ward.svg?style=flat-square
-[license-url]: https://github.com/colinespinas/ward/blob/master/LICENSE.md
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/colin-espinas-9739b8178/l
-[product-screenshot]: https://i.imgur.com/o9rDolc.jpg
